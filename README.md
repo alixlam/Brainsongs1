@@ -5,5 +5,6 @@ This code was written for the Brain Songs project during an internship at IMT At
 
 ## Block analysis 
 
+![alt text](https://github.com/alixlam/Brainsongs1/blob/master/block_data/experimental_protocol.png)
 
 ## Continuous data
