@@ -15,10 +15,15 @@ Using a prefrontal electrode as an Electro-Oculography channel, we ran an autode
 Finally, the new signal was segmented into consecutive epochs of 1 seconds, epochs where the signal’s amplitude of one or more channels exceeded a predefined threshold were removed. 
 
 Data analysis:
-Individual Alpha Frequency (IAF) (EEG alpha and the oscillations reflect cognitive and memory performance : a review and analysis) was determined by finding the individual dominant EEG frequency in the baseline signal. Based on that frequency we defined the Alpha, Theta and beta bands respectively (7.5-12.5, 4.5-7.5, 12.5-30).
+Individual Alpha Frequency (IAF) [1] was determined by finding the individual dominant EEG frequency in the baseline signal. Based on that frequency we defined the Alpha, Theta and beta bands respectively (7.5-12.5, 4.5-7.5, 12.5-30).
 To conduct our analysis, we estimated the power spectral density using multitapers and computed the powers in the different frequency bands. The 1s epochs were labelled with their corresponding state (free, low, and fast) and we ran ANOVA. 
 
 ## Continuous data
 
 ### Method for preprocessing : 
 The preprocessing was the same as previously
+
+
+## Reference
+
+[1] Klimesch W. EEG alpha and theta oscillations reflect cognitive and memory performance: a review and analysis. Brain Res Brain Res Rev. 1999;29(2-3):169-195. doi:10.1016/s0165-0173(98)00056-3
