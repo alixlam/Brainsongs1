@@ -23,7 +23,13 @@ To conduct our analysis, we estimated the power spectral density using multitape
 ### Method for preprocessing : 
 The preprocessing was the same as previously
 
+Data analysis:
+We conducted a time-frequency analysis using Morlet Wavelet to compute the correlation between the subjective time feedback and the evolution of power of different frequency bands (alpha, beta and theta) in time.
+Then we tried the Spoc algorithm [2] to see if we could predict the variable subjective time with the EEG signal. 
 
 ## Reference
 
 [1] Klimesch W. EEG alpha and theta oscillations reflect cognitive and memory performance: a review and analysis. Brain Res Brain Res Rev. 1999;29(2-3):169-195. doi:10.1016/s0165-0173(98)00056-3
+
+[2] Dahne, S., et al (2014). SPoC: a novel framework for relating the amplitude of neuronal oscillations to behaviorally relevant parameters. NeuroImage, 86, 111-122.
+
