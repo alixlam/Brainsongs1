@@ -16,7 +16,7 @@ from scipy import stats
 
 
 
-list_alphas, list_betas, list_thetas, list_ab= frequency_analysis(create_epochs(dict2), pick = 'all')[0:4]
+list_alphas, list_betas, list_thetas, list_ab= frequency_analysis(create_epochs(dict2),lengthepochs = 3, pick = 'all')[0:4]
 
 
 import pandas as pd
